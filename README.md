@@ -1,3 +1,7 @@
+# Things i have built
+Pagination Component
+
+# Starting instructions
 # Leptos Starter Template
 
 This is a template demonstrating how to integrate [TailwindCSS](https://tailwindcss.com/) with the [Leptos](https://github.com/leptos-rs/leptos) web framework and the [cargo-leptos](https://github.com/akesson/cargo-leptos) tool.
