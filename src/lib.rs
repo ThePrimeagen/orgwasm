@@ -1,12 +1,12 @@
 mod app;
-pub mod scroll_bar;
+pub mod pagination;
 use cfg_if::cfg_if;
 
 cfg_if! {
     if #[cfg(feature = "hydrate")] {
         use wasm_bindgen::prelude::wasm_bindgen;
         use crate::app::*;
-        use crate::scroll_bar::*;
+        use crate::pagination::*;
         use leptos::*;
 
         #[wasm_bindgen]

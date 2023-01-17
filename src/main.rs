@@ -1,5 +1,5 @@
 mod app;
-mod scroll_bar;
+mod pagination;
 use cfg_if::cfg_if;
 
 cfg_if! {

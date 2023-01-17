@@ -2,7 +2,7 @@ use leptos::*;
 use leptos_meta::*;
 use leptos_router::*;
 
-use crate::scroll_bar::{PaginationBar, PaginationBarProps};
+use crate::pagination::{PaginationBar, PaginationBarProps};
 
 #[component]
 pub fn App(cx: Scope) -> impl IntoView {
