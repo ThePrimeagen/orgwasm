@@ -32,34 +32,12 @@ npm install -D tailwindcss
 
 If you'd rather not use `npm`, you can install the Tailwind binary [here](https://github.com/tailwindlabs/tailwindcss/releases).
 
-## Setting up with VS Code and Additional Tools
+## Setting up with `neovim`
 
-If you're using VS Code, add the following to your `settings.json`
+You should be using Mason in the first place... 
 
-```json
-  "emmet.includeLanguages": {
-    "rust": "html",
-    "*.rs": "html"
-  },
-  "tailwindCSS.includeLanguages": {
-      "rust": "html",
-      "*.rs": "html"
-  },
-  "files.associations": {
-      "*.rs": "rust"
-  },
-  "editor.quickSuggestions": {
-    "other": "on",
-    "comments": "on",
-    "strings": true
-  },
-  "css.validate": false,
-```
+[https://github.com/VonHeikemen/lsp-zero.nvim](lsp-zero)
 
-Install [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).
-
-    Install "VS Browser" extension, a browser at the right window.
-    Allow vscode Ports forward: 3000, 3001.
 
 ## Notes about Tooling
 
