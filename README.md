@@ -36,7 +36,7 @@ If you'd rather not use `npm`, you can install the Tailwind binary [here](https:
 
 You should be using Mason in the first place... 
 
-[https://github.com/VonHeikemen/lsp-zero.nvim](lsp-zero)
+[lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
 
 
 ## Notes about Tooling
